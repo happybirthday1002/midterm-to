@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Order Confirmation</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a>
+            <span id="userLinks"></span>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Thank you for your order!</h2>
+        <p>Your order has been placed successfully.</p>
+        <a href="order.html">View Order History</a>
+    </main>
+
+
+    <script src="js/scripts.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            updateUserLinks();
+        });
+    </script>
+
+</body>
+</html>
